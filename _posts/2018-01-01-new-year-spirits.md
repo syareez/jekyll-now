@@ -1,12 +1,13 @@
 ---
-title: "Layout: Header Image Overlay"
+title: "Poetry: New Year Spirits"
 header:
   overlay_image: /assets/images/new-year-spirtis.jpg
-  overlay_filter: rgba(255, 0, 0, 0.5)
+  #overlay_filter: rgba(255, 0, 0, 0.5)
   caption: "Photo by Morgan Sessions on Unsplash"
   cta_url: "https://unsplash.com"
 categories:
   - random
+  - poetry
 tags:
   - edge case
   - image
