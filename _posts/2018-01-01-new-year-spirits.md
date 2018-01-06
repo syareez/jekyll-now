@@ -9,11 +9,20 @@ categories:
   - random
   - poetry
 tags:
-  - edge case
-  - image
-  - layout
+  - poetry
+  - common
 last_modified_at: 2018-01-01T11:39:01+08:00
 ---
 
-{% include base_path %}
+I had enough of all this
+the time is killing me
+didnt do anything to achieve, all my dreams
+what I have make just another same mistake
+that I have been made before...
 
+so in this new year
+
+
+
+
+{% include base_path %}
