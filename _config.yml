@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "syareez"
 title_separator          : "-"
 name                     : "Syareez Zainal"
-description              : "Here goes my personal blog anything about Art, Poetry and Thoughts"
+description              : "My thoughts for you and me"
 url                      : "https://syareez.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "syareez/syareez.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -85,9 +85,9 @@ analytics:
 # Site Author
 author:
   name             : "Syareez Zainal"
-  avatar           : "https://avatars1.githubusercontent.com/u/2005347?v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://pbs.twimg.com/profile_images/955115335073476608/Fn1KEpwj_400x400.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "19, Student"
-  location         : ""
+  location         : "Serdang <-> Pasir Gudang"
   email            : "muhammadsyareez@hotmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -97,19 +97,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : ""
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : ""
-  lastfm           : ""
+  instagram        : "syareez"
+  lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : "" # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : ""
+  twitter          : "syareez"
   vine             :
   weibo            :
   xing             :
