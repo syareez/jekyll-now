@@ -1,27 +1,24 @@
-header.masthead {
+.masthead {
+  min-height: 30rem;
   position: relative;
-  background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
-  @include background-cover;
+  display: table;
+  width: 100%;
+  height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-  }
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
   }
-  @media (min-width: 768px) {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+  @media (min-width: 992px) {
+    height: 100vh;
     h1 {
-      font-size: 3rem;
+      font-size: 5.5rem;
     }
   }
 }
