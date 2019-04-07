@@ -1,43 +1,37 @@
-<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ page.title | append: ' - ' |append: site.name }}</title>
 
-{% include seo.html %}
+	<link rel="shortcut icon" href="{{ '/styles/images/favicon.jpg' | prepend: site.baseurl }}">
+	<link rel="icon" href="{{ '/styles/images/favicon.jpg' | prepend: site.baseurl }}">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+	<link rel="stylesheet" href="{{ '/styles/css/index.css' | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ '/styles/css/fontawesome/css/font-awesome.min.css' | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ '/styles/css/syntax.css' | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | prepend: site.baseurl }}">
+	
+	<meta name="keywords" content="{{ page.title | append: ', ' | append: site.name | append: ', ' | append: site.meta_description}}">
+	<meta name="description" content="{{site.meta_description}}">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
-
-<!--[if lte IE 9]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-{% if site.head_scripts %}
-  {% for script in site.head_scripts %}
-    {% if script contains "://" %}
-      {% capture script_path %}{{ script }}{% endcapture %}
-    {% else %}
-      {% capture script_path %}{{ script | absolute_url }}{% endcapture %}
-    {% endif %}
-    <script src="{{ script_path }}"></script>
-  {% endfor %}
-{% endif %}
+	<script src="{{ '/styles/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+	<!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+  	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?{{ site.baidu_analysis }}";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+  	<style type="text/css">
+	  	.docs-content{
+	  		margin-bottom: 10px;
+	  	}
+  	</style>
+</head>
