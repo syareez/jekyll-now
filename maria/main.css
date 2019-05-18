@@ -40,6 +40,15 @@ if it's not present, don't show loader */
 	z-index: 9999;
 	background: url(loader.gif) center no-repeat #fff;
 }
+span.desktop {
+	margin-top: 1.5em;
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5em;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+}
 
 #card-front {
   color: #FFDFDF;
