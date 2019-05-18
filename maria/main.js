@@ -8,6 +8,12 @@
 Was made with sparkles of magic by the School of Magic Engineering, Unicornia Institute, Kingdom of Unicornia
 God save the queen.
 */
+//paste this code under the head tag or in a separate js file.
+// Wait for window load
+$(window).load(function() {
+	// Animate loader off screen
+	$(".se-pre-con").fadeOut("slow");;
+});
 (function() {
   function $(id) {
     return document.getElementById(id);
