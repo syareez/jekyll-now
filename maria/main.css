@@ -402,10 +402,12 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2) { 
 	.ribbon {
 		background: rgb(255,253,208);
+		border-color: rgb(0, 0, 0);
 	}
 
 	.knot {
 		background: rgb(255,253,208);
+		border-color: rgb(0, 0, 0);
 	}
 }
 
