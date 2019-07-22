@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <div class="container docs-container">
   <div class="row">
@@ -25,9 +24,7 @@ comments: true
               {{ content }}
             </article>
 			  <br><hr><br>
-			{% if page.comments %}
-				{% include disqus.html %}
-			{% endif %}
+			{% include disqus.html %}
         </div>
       </div>
     </div>
