@@ -1,15 +1,15 @@
 # Site settings
-name: maybe one day I change the title
+name: syareez's blog
 email: muhammadsyareez@gmail.com
 author: Syareez Zainal
 url: http://syareez.github.io
-resume_site: http://syareez.github.io
+resume_site: http://syareez.github.io/
 github: https://github.com/syareez/
 baseurl: ""
-description: this goes the description
-meta_description: this goes the description
+description: welcome to my personal-blog-cum-personal-website
+meta_description: welcome to my personal-blog-cum-personal-website
 motto: It's our wits that make us men.
-banner: whateven
+banner: whateven is a banner
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -17,10 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: syareez
 
 # Build settings
 markdown: kramdown
-
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-
